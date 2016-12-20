@@ -25,6 +25,7 @@ These instructions are for Ubuntu-based Linux distributions. A text editor is re
   and use the IP address under eth0. Type it into a web browser and an Apache page should display stating that the installation was a success.
   
 2. Install MySQL
+
   a. Install MySQL server and other requirements:
   ```
   
@@ -45,6 +46,7 @@ These instructions are for Ubuntu-based Linux distributions. A text editor is re
   c. The installation will ask you a series of questions. Just press enter for each for a default set up. 
   
 3. Install PHP
+
   a. Install PHP and other requirements:
   ```
   
