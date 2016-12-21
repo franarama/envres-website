@@ -96,5 +96,31 @@ http://YOUR.IP.ADDRESS/name-of-file.php
 
 ### phpMyAdmin
 
+We will install phpMyAdmin from a package.
+
+1. Install the package:
+  ```
+
+  sudo apt-get install phpmyadmin
+
+  ```
+
+2. To set up under Apache, add this line line to the end of the /etc/apache2/apache2.conf file:
+  ```
+
+  Include /etc/phpmyadmin/apache.conf
+
+  ```
+
+3. phpMyAdmin should now be installed. To verify, open a web browser and type in:
+  ```
+
+  http://localhost/phpMyAdmin
+
+  ```
+
+That's it! You should now have a web interface for handling databases.
+
+
 
 
