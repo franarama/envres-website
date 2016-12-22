@@ -1,5 +1,5 @@
 # envres-website
-This website uses HTML, CSS, and PHP to create a reservation booking system for server environments. This was a work assignment (Co-op Fall/Summer 2016).
+This website uses HTML, CSS, JavaScript and PHP to create a reservation booking system for server environments. This was a work assignment (Co-op Fall/Summer 2016).
 
 ## Prerequisites
 These instructions are for Ubuntu-based Linux distributions. A text editor is required for writing code (I use Komodo, but you can use whatever you'd like such as Notepad++). A web server is required to run PHP based programs so we will install a LAMP (Linux, Apache, MySQL, PHP) stack. The website stores and retrieves information from databases so we will install and use phpMyAdmin (a web interface).
@@ -19,4 +19,4 @@ https://help.ubuntu.com/community/phpMyAdmin
 
 ```
 
-Please note that some of the website information has either been changed or removed to protect sensitive information.
+Please note that some of the website information has either been changed or removed to protect sensitive information, or to remove code that has not been written by me.
