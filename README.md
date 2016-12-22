@@ -19,4 +19,12 @@ https://help.ubuntu.com/community/phpMyAdmin
 
 ```
 
+**JQuery required:**
+
+1. jquery-1.11.3.js
+2. jquery-1.11.3.min.js
+3. jquery-ui-themes-1.11.4/
+4. jquery-ui-1.11.4/
+
+
 Please note that some of the website information has either been changed or removed to protect sensitive information, or to remove code that has not been written by me.
