@@ -1,0 +1,84 @@
+        * {
+            font-family: Arial;
+        }
+        #nav {
+            padding-left:190px;
+        }
+        #nav a {
+            margin-left:10%;
+            margin-right:10%;
+        }
+        #topCenter {
+            text-align: center;
+            padding-top: 20px;
+        }
+        #topCenter h1 {
+            font-size: 18px;
+            letter-spacing: 0.1em;
+            color:#414b56;
+        }
+
+
+        #topBottom {
+            clear:both;
+            text-align: center;
+            padding-top:20px;
+            margin-right: 70px;
+        }
+        #topBottom a, #topBottom a:visited {
+            color: #367d31;
+            letter-spacing: 0.1em;
+        }
+        .calendar {
+            font-family: Arial;
+            border-collapse: collapse;
+            min-width: 100%;
+            border: 1px solid;
+/*          border-right: 1px solid #414b56;
+            border-left: 1px solid #414b56;
+            border-bottom: 1px dotted #414b56;*/
+            color: #414b56;
+            font-size: 14px;
+            margin-top: 20px;
+            letter-spacing: 0.1em;
+            margin-bottom: 50px;
+        }
+        .calendar th, .calendar tr {
+            text-align: center;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border-left: 1px dotted;
+        }
+        .calendar td {
+            border: 1px dotted #949ca1;
+        }
+        .calendar tr {
+            border: 1px dotted #949ca1;
+            background-color: #faf8f6;
+        }
+        .calendar td:first-child {
+            border-right: 1px dotted #949ca1;
+            background-color: #e3e3e0;
+
+        }
+        .calendar tr:hover {
+            background-color: #e3e3e0;
+        }
+        #link a, #link a:visited{
+            color: #76B900;
+        }
+        #link {
+            letter-spacing: 0.1em;
+            font-style: italic;
+            color: #76B900;
+        }
+        
+        .CalendarEntry{
+          background: #e2edc3 none repeat scroll 0 0;
+          border: 1px dotted #414b56;
+          font-size: small;
+          opacity: 0.9;
+          position: absolute;
+          width: 150px;
+          z-index: 2;
+        }
