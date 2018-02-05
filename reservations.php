@@ -236,7 +236,6 @@ include('inc/functions.inc.php');
                     url: "api/get_reservations.php?"+dNow.getTime(), //Throwing a date/time on the end ensures no caching in the response
                     success: function(data){
                       if (onSuccess !== undefined && typeof(onSuccess) == 'function' ){ //ensure onSuccess is a function
-                        //data=jQuery.parseJSON('{"Dev2":[{"environment":"Dev2","description":"","project":"dev2-test-project","owner":"taviss","startdate":"2016-05-29","enddate":"2016-06-02","start_epoch":"1464505200","end_epoch":"1464850800","duration":"5"},{"environment":"Dev2","description":"","project":"dev2-test-project2","owner":"taviss","startdate":"2016-05-30","enddate":"2016-05-31","start_epoch":"1464591600","end_epoch":"1464678000","duration":"2"}]}');
                         onSuccess(data); //Call the function passed as "onSuccess" with the returned data
                       }
                     },
@@ -275,7 +274,6 @@ include('inc/functions.inc.php');
                     success: function(data){
                       
                       if (onSuccess !== undefined && typeof(onSuccess) == 'function' ){ //ensure onSuccess is a function
-                        //data=jQuery.parseJSON('[{"id":"9","name":"QA5","description":""}]');
                         onSuccess(data); //Call the function passed as "onSuccess" with the returned data
                       }
                     },
